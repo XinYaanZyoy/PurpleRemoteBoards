@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="a Remote Board to teach my sister!!">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="XinYaanZyoy's Personal WebPage" />
+	<meta name="keywords"
+		content="RemoteBoard, online board, live black board, online blackboard, purpleremoteboards, xyz, THB, The Helper Boy, XinYaanZyoy, Parth, Parth Patel, Space enginner, Aerospace, " />
+	<meta name="author" content="XinYaanZyoy" />
+	<link rel="icon" type="image/x-icon" href="assets/PICZ/favicon.ico" />
+
+	<title>PurpleRemoteBoards</title>
+
+	<!-- Disable tap highlight on IE -->
+	<meta name="msapplication-tap-highlight" content="no">
+
+	<!-- Web Application Manifest -->
+	<link rel="manifest" href="manifest.json">
+
+	<!-- Add to homescreen for Chrome on Android -->
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="application-name" content="XTVs AnnRoom">
+	<meta name="theme-color" content="#303F9F">
+
+	<!-- Add to homescreen for Safari on iOS -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-title" content="XTVs AnnRoom">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#303F9F">
+
+	<!-- Tile icon for Win8 -->
+	<meta name="msapplication-TileColor" content="#3372DF">
+	<meta name="msapplication-navbutton-color" content="#303F9F">
+
+	<!-- libs -->
+	<script src="libraries/p5.js"></script>
+	<script src="libraries/p5.dom.js"></script>
+
+	<!-- firebase SDK -->
+	<script src="/__/firebase/5.6.0/firebase-app.js"></script>
+	<script src="/__/firebase/5.6.0/firebase-firestore.js"></script>
+
+	<!-- app styling -->
+	<link rel="stylesheet" type="text/css" href="assets/CSS/style.css" />
+
+	<!-- app -->
+	<script src="assets/JS/main.js"></script>
+	<script src="assets/JS/board.js"></script>
+</head>
+
+<body>
+	<header>
+		<div id="heading">
+			<text style="color: white; font-size: 64px">Remote<text style="color:black">Board</text></text><br />
+			<text style="color:green; font-size: 24px;">-written by:<a href="https://www.facebook.com/49yatriyaan.love"
+					style="text-decoration: none; color: chartreuse; margin: 0 30px;">XinYaanZyoy</a> </text>
+		</div>
+
+		<table style="margin: 0 100px; display: inline-block; border: darkmagenta solid 1px;">
+			<tr>
+				<td class="pubboard">
+					Public Boards
+					<button style="color:greenyellow" onclick="createNewPubBoard();"
+						class="dropbtn tooltip">&#10010;<span class="tooltiptext">Create New Public
+							Board</span></button>
+				</td>
+			</tr>
+			<tr>
+				<td class="pubboard" style="color:black">
+					<div class="dropdown">
+						<text id="pubboard_status">choose board</text>
+						<button style="color: orchid;" onclick="listPubBoards()" class="dropbtn tooltip">&#9947;<span
+								class="tooltiptext">list of Public Boards</span></button>
+						<div id="pubboard" class="dropdown-content">
+							<table id="pubboards_list">
+								<!-- list of pubboards by js -->
+								<!-- example -->
+								<!-- <tr>
+									<td>
+										<button onclick="choosePubBoard(name)" class="dropbtn">pubboard_name</button>
+									</td>
+									<td>
+										<button onclick="deletePubBoard(name)" class="dropbtn">&#10060;</button>
+									</td>
+								</tr> -->
+							</table>
+						</div>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</header>
+
+	<div id="platform">
+		<div id="platform_cover">
+
+		</div>
+
+		<div id="platform_boundries">
+
+		</div>
+	</div>
+
+	<!-- app -->
+	<script src="/__/firebase/init.js"></script>
+</body>
+
+</html>

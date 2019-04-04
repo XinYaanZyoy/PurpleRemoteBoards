@@ -1,0 +1,25 @@
+stages:
+  - build
+  - test
+  - deploy
+
+  # this image has node and fb cli
+image: xinyaanzyoy/remoteboard
+
+initialization:
+  stage: build
+  script:
+    - echo "node and fb-cli are ready!!"
+
+testing:
+  stage: test
+  script:
+    - echo "versions of firebase and node... \n"
+    - firebase --version
+    - node --version
+
+deployment:
+  stage: deploy
+  script:
+  - firebase deploy --only hosting --token $FIREBASE_TOKEN
+  - echo "the fb app from github.com/xinyaanzyoy/learngitlabci has been deployed to fb hosting server!!"
