@@ -4,7 +4,7 @@ stages:
   - deploy
 
   # this image has node and fb cli
-image: xinyaanzyoy/remoteboard
+image: xinyaanzyoy/purpleremoteboards
 
 initialization:
   stage: build
