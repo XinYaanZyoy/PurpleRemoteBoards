@@ -21,5 +21,5 @@ testing:
 deployment:
   stage: deploy
   script:
-  - firebase deploy --only hosting --token $FIREBASE_CI_TOKEN
+  - firebase deploy --token $FIREBASE_TOKEN
   - echo "the fb app from github.com/xinyaanzyoy/learngitlabci has been deployed to fb hosting server!!"
