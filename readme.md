@@ -1,11 +1,7 @@
 # RemoteBoard
 ***
 
-![GitHub tag (latest by date)](https://img.shields.io/github/tag-date/XinYaanZyoy/PurpleRemoteBoards.svg?style=popout)  
-![GitHub release](https://img.shields.io/github/release/XinYaanZyoy/PurpleRemoteBoards.svg)  
-![GitHub Release Date](https://img.shields.io/github/release-date/XinYaanzyoy/PurpleRemoteBoards.svg?style=popout)  
-![GitHub last commit](https://img.shields.io/github/last-commit/XinYaanZyoy/PurpleRemoteBoards.svg?style=popout)  
-![GitHub contributors](https://img.shields.io/github/contributors/XInYaanZyoy/PurpleRemoteBoards.svg?style=popout)  
+![GitHub tag (latest by date)](https://img.shields.io/github/tag-date/XinYaanZyoy/PurpleRemoteBoards.svg?style=popout)![GitHub release](https://img.shields.io/github/release/XinYaanZyoy/PurpleRemoteBoards.svg)![GitHub Release Date](https://img.shields.io/github/release-date/XinYaanzyoy/PurpleRemoteBoards.svg?style=popout)![GitHub last commit](https://img.shields.io/github/last-commit/XinYaanZyoy/PurpleRemoteBoards.svg?style=popout)![GitHub contributors](https://img.shields.io/github/contributors/XInYaanZyoy/PurpleRemoteBoards.svg?style=popout)  
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/XinYaanZyoy/PurpleRemoteBoards.svg?style=popout)  
 ![GitHub All Releases](https://img.shields.io/github/downloads/XinYaanZyoy/PurpleRemoteBoards/total.svg?style=popout)  
 ![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/XinYaanZyoy/PurpleRemoteBoards.svg?style=popout)  
