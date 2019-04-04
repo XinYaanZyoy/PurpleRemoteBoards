@@ -1,5 +1,7 @@
 # RemoteBoard
 ***
+[![pipeline status](https://gitlab.com/XinYaanZyoy/PurpleRemoteBoards/badges/master/pipeline.svg)](https://gitlab.com/XinYaanZyoy/PurpleRemoteBoards/commits/master)
+***
 ### -Written by @XinYaanZyoy [website](https://xinyaanzyoy.github.io/THB) [FB](https://facebook.com/49yatriyaan.love)
 
 ***
